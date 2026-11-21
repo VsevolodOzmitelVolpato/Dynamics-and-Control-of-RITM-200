@@ -35,7 +35,6 @@ Flows:
 
 
 from matplotlib.gridspec import GridSpec
-from matplotlib.gridspec import GridSpec
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import solve_ivp
@@ -680,11 +679,11 @@ z_faces = np.linspace(0, L_sg, N+1)
 
 # primary, cell centers and boundary condition at z=L
 plt.plot(np.concatenate([z_centers, [L_sg]]), list(Tp_prof) + [T_hot_ss],
-         'r', lw=2, label='Primario')
+         'r', lw=2, label='Primary')
 
 # secondary, boundary condition at z=0 and cell centers
-plt.plot(z_faces, Ts_prof, 'b', lw=2, label='Secondario')
-plt.title("Profilo T — SS (punto di partenza warmup)")
+plt.plot(z_faces, Ts_prof, 'b', lw=2, label='Secondary')
+plt.title("Temperature profile — steady state (warm-up starting point)")
 plt.xlabel("z [m]"); plt.ylabel("T [°C]")
 plt.legend(); plt.grid(); plt.tight_layout(); plt.show()
 
@@ -987,7 +986,7 @@ axs[2].grid(True, linestyle=':'); axs[2].legend()
 axs[3].plot(t_arr, T_s_out_arr, color='blue', label="Secondary output T")
 axs[3].axhline(Ts_out_ss, color='black', ls='--', alpha=0.5, label='SS')
 axs[3].set_title(f"Secondary Outlet Temperature")
-axs[3].set_xlabel("Time (s)"); axs[3].set_ylabel("Temperatre (°C)")
+axs[3].set_xlabel("Time (s)"); axs[3].set_ylabel("Temperature (°C)")
 axs[3].grid(True, linestyle=':'); axs[3].legend()
 
 fig.suptitle(f'Transient behavior (Δflow {delta_fr*100:+.0f}%)', fontsize=14)
@@ -1021,7 +1020,7 @@ ax[1, 1].plot(t_arr, x_mean_arr, color='black', lw=2, label='Average x')
 ax[1, 1].axhline(x_mean_ss, color='black', ls='--', alpha=0.5, label='SS')
 ax[1, 1].axvline(t_salto, color='gray', ls=':', lw=1.2)
 ax[1, 1].set_title("Mean secondary quality")
-ax[1, 1].set_xlabel("TTime (s)"); ax[1, 1].set_ylabel("x [-]")
+ax[1, 1].set_xlabel("Time (s)"); ax[1, 1].set_ylabel("x [-]")
 ax[1, 1].grid(True, linestyle=':'); ax[1, 1].legend()
 plt.tight_layout(); plt.show()
 
