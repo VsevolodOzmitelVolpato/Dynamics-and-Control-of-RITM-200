@@ -408,8 +408,6 @@ All figures in this README come from the project's technical report, included in
 | Salto | Step (perturbation) |
 | SS (stazionario) | Steady state |
 
-The two steam-generator layout drawings (`fig4-1`, `fig4-2`) appear to be reproduced from published literature rather than drawn for this project — check their original source and add the proper credit line before making the repository public.
-
 ## References
 
 1. Han, G. Y. "A mathematical model for the thermal-hydraulic analysis of nuclear power plants." *International Communications in Heat and Mass Transfer* 27.6 (2000): 795–805.
