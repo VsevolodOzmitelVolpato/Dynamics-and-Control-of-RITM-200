@@ -377,7 +377,7 @@ Stated deliberately, as in the original report:
 
 ## Getting started
 
-You have to install the following libraries on python
+You have to install the following libraries on python and also the python main_Eng.py
 ```
 numpy
 scipy
