@@ -389,7 +389,7 @@ matplotlib
 
 ## Figures and full report
 
-All figures in this README come from the project's technical report, included in `Docs/`. **Plot labels are in Italian** — a short glossary:
+All figures in this README come from the project's technical report, included in `Docs/`. **Plot labels are in Italian except for the first one** — a short glossary:
 
 | Italian | English |
 |---|---|
