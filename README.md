@@ -367,11 +367,11 @@ Stated deliberately, as in the original report:
 │   ├── Steam_Generator.py      # finite-volume SG, implicit Euler
 │   ├── Thermohydraulics.py     # 3-node fuel / cladding / coolant
 │   ├── Neutronics.py           # Neutronics kinetics
-│   └── Thermohyd+neutronics.py # the Neutronics and Thermohydraulics files combined togheter      
+│   └── Thermohyd+neutronics.py # the Neutronics and Thermohydraulics files combined together      
 ├── assets/                     # figures used in this README
 ├── Docs/
-│   ├── Report(English).pdf     # full technical report (English)
-│   └── Report(Italian).pdf     # full technical report (Italian)
+│   ├── Report (English).pdf     # full technical report (English)
+│   └── Report (Italian).pdf     # full technical report (Italian)
 
 ```
 
@@ -389,7 +389,7 @@ matplotlib
 
 ## Figures and full report
 
-All figures in this README come from the project's technical report, included in `docs/`. **Plot labels are in Italian** — a short glossary:
+All figures in this README come from the project's technical report, included in `Docs/`. **Plot labels are in Italian** — a short glossary:
 
 | Italian | English |
 |---|---|
@@ -427,7 +427,7 @@ Developed for the Nuclear Engineering Laboratory (*Laboratorio di Ingegneria Nuc
 
 ## License
 
-No license is set yet, but for information contact Politecnico di Milano. If you want others to be able to reuse this code, consider adding one — MIT is a common, permissive choice for portfolio and academic repositories.
+No license is set yet, but for information contact Politecnico di Milano. No license is set yet; for reuse, please contact the authors and the institution.
 
 ---
 
