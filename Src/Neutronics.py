@@ -11,7 +11,7 @@ ah=-0.007 #pcm/cm
 Tf0=550
 Tm0=310
 h0=0
-Tf,Tm,h=input("Insersci i valori di Tf,Tm,h: ").split(" ")
+Tf,Tm,h=input("Enter Tf, Tm (absolute, °C) and h (cm), separated by spaces: ").split(" ")
 
 #calcolo la reactivity
 rho= lambda TF,TM, H: af*(int(TF)-Tf0)+am*(int(TM)-Tm0)+ah*(float(H)-h0) 
