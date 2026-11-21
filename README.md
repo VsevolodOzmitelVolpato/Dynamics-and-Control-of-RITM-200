@@ -8,7 +8,7 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C)
 ![Domain](https://img.shields.io/badge/domain-nuclear%20reactor%20dynamics-2ea44f)
 
-![Load-following transient overview](assets/fig7-2-flow-transient-overview.png)
+![Load-following transient overview](assets/fig7-2-flow-transient-overview_eng.png)
 
 > *A +10% step in secondary mass flow propagates through the whole plant: secondary flow ↑, secondary pressure ↓, neutron density ↑, exchanged thermal power 174.7 MW → 183.7 MW. The core raises its own power to meet turbine demand, with no control-rod action — PWR load-following, reproduced from first principles.*
 
